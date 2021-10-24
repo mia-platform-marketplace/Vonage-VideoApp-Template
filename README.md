@@ -1,1 +1,1 @@
-# Vonage-VideoApp-Template
+# Vonage VideoApp Template
