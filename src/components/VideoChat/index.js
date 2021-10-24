@@ -16,24 +16,14 @@
 
 import React, {useState, useEffect} from 'react'
 import {useSelector} from 'react-redux'
-import {
-  MicIcon,
-  MicOffIcon,
-  VideocamIcon,
-  VideocamOffIcon,
-  VolumeUpIcon,
-  VolumeOffIcon,
-  VisibilityIcon,
-  VisibilityOffIcon
-} from '@mui/icons-material'
-// import MicIcon from '@mui/icons-material/Mic'
-// import MicOffIcon from '@mui/icons-material/MicOff'
-// import VideocamIcon from '@mui/icons-material/Videocam'
-// import VideocamOffIcon from '@mui/icons-material/VideocamOff'
-// import VolumeUpIcon from '@mui/icons-material/VolumeUp'
-// import VolumeOffIcon from '@mui/icons-material/VolumeOff'
-// import VisibilityIcon from '@mui/icons-material/Visibility'
-// import VisibilityOffIcon from '@mui/icons-material/VisibilityOff'
+import MicIcon from '@mui/icons-material/Mic'
+import MicOffIcon from '@mui/icons-material/MicOff'
+import VideocamIcon from '@mui/icons-material/Videocam'
+import VideocamOffIcon from '@mui/icons-material/VideocamOff'
+import VolumeUpIcon from '@mui/icons-material/VolumeUp'
+import VolumeOffIcon from '@mui/icons-material/VolumeOff'
+import VisibilityIcon from '@mui/icons-material/Visibility'
+import VisibilityOffIcon from '@mui/icons-material/VisibilityOff'
 import {Tooltip, Button} from '@mui/material'
 
 import {apiKey, sessionId, token} from './constants'
